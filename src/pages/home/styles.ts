@@ -22,5 +22,5 @@ export const ContainerVideo = styled.div`
 export const Divider = styled.div`
   border-top: 5px solid #e4e4e4;
   flex-direction: column;
-  margin: 50px 0 50px 0;
+  margin: 50px 0 20px 0;
 `;

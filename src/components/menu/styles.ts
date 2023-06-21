@@ -15,7 +15,7 @@ export const Container = styled.div<{ openMenu: boolean}>`
 
 `;
 
-export const MenuItem =styled.div<{ openMenu: boolean }>`
+export const MenuItem = styled.div<{ openMenu: boolean }>`
     width: 98%;
     min-height: ${({ openMenu }) => openMenu? '45px' : '70px'};
     border-radius: 10px;

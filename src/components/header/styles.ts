@@ -1,9 +1,5 @@
 import styled from "styled-components";
 
-interface ContainerProps {
-    openDropDownMenu: boolean;
-  }
-
 export const Container = styled.header`
     width: 100%;
     height: 55px;
@@ -16,6 +12,7 @@ export const Container = styled.header`
     position: sticky;
     box-sizing: border-box;
     top: 0;
+    z-index: 2;
 `;
 
 export const LogoContainer = styled.div`
@@ -131,7 +128,7 @@ export const LoginContainer = styled.div<{ margin?: string }>`
     }
 `;
 
-export const DropDownMenu = styled.div<ContainerProps>`
+export const DropDownMenu = styled.div<{ openDropDownMenu: boolean}>`
     width: 280px;
     height: 280px;
     background-color: #fff;

@@ -8,6 +8,7 @@ import { useCategoryContext } from "../../contexts/searchCategories";
 import CategoryBar from "../../components/categoryBar";
 import Header from '../../components/header';
 import Menu from '../../components/menu';
+import Cards from "../../components/Cards";
 
 function Home() {
     const { openMenu } = useContext(MenuContext);
@@ -120,6 +121,7 @@ function Home() {
                             ))}
                         </ContainerVideo>
                         <Divider />
+                        <Cards />
                     </Container>
                 </div>
             </div>

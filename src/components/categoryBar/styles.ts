@@ -1,10 +1,6 @@
 import styled from "styled-components";
 
-interface ContainerProps {
-  openMenu: boolean;
-}
-
-export const Container = styled.div<ContainerProps>`
+export const Container = styled.div<{ openMenu: boolean }>`
   width: ${({openMenu}) => openMenu? '82%' : '93%'};
   height: 56px;
   position: fixed;
@@ -53,6 +49,7 @@ export const Slider = styled.div`
   column-gap: 20px;
   height: 70%;
   overflow-x: hidden;
+  z-index: 1;
 `;
 
 export const SliderContent = styled.div`

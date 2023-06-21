@@ -9,15 +9,16 @@ import Subscriptions from './pages/subscriptions';
 import { UserStorage } from './contexts/userContext';
 import Login from './pages/login';
 import React from 'react';
+import Shorts from './pages/shorts';
 
 function App() {
   return (
     <UserStorage>
-      <UserStore>
         <BrowserRouter>
           <div className="App">
             <Routes>
               <Route path='/' element={<Home />} />
+              <Route path='/shorts' element={<Shorts />} />
               <Route path='library' element={<Library />} />
               <Route path='history' element={<History />} />
               <Route path='subscriptions' element={<Subscriptions />} />
@@ -25,7 +26,6 @@ function App() {
             </Routes>
           </div>
         </BrowserRouter>
-      </UserStore>
     </UserStorage>
   );
 }
