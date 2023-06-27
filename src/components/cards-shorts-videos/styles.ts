@@ -1,10 +1,8 @@
 import styled from "styled-components";
 
 export const CardVideo = styled.div`
-  min-width: 160px;
-  min-height: 380px;
-  max-width: 160px;
-  max-height: 380px;
+  width: 160px;
+  height: 380px;
   display: flex;
   flex-direction: column;
   row-gap: 10px;
