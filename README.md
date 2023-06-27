@@ -19,7 +19,7 @@ Agora o projeto estará disponível ```http://localhost:3000```
 ## Screenshosts
 
 <p>
-<img src="https://raw.githubusercontent.com/biandradee/Projeto-Youtube/master/screenshots/youtube.jpeg" />
+<img src="https://github.com/biandradee/Projeto-Youtube/blob/master/screenshots/youtube.png?raw=true" />
 <img src="https://raw.githubusercontent.com/biandradee/Projeto-Youtube/master/screenshots/youtube2.jpeg" />
 <img src="https://raw.githubusercontent.com/biandradee/Projeto-Youtube/master/screenshots/youtube3.jpeg" />
 </p>
