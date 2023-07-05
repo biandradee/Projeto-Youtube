@@ -1,7 +1,7 @@
 {
   "main.css": "/Projeto-Youtube/static/css/main.62015c2c.chunk.css",
-  "main.js": "/Projeto-Youtube/static/js/main.2f85d8e8.chunk.js",
-  "main.js.map": "/Projeto-Youtube/static/js/main.2f85d8e8.chunk.js.map",
+  "main.js": "/Projeto-Youtube/static/js/main.24fa7f84.chunk.js",
+  "main.js.map": "/Projeto-Youtube/static/js/main.24fa7f84.chunk.js.map",
   "static/js/1.27d2720e.chunk.js": "/Projeto-Youtube/static/js/1.27d2720e.chunk.js",
   "static/js/1.27d2720e.chunk.js.map": "/Projeto-Youtube/static/js/1.27d2720e.chunk.js.map",
   "runtime~main.js": "/Projeto-Youtube/static/js/runtime~main.4ec99a70.js",
@@ -12,6 +12,6 @@
   "static/media/google.png": "/Projeto-Youtube/static/media/google.e0651ac1.png",
   "static/css/main.62015c2c.chunk.css.map": "/Projeto-Youtube/static/css/main.62015c2c.chunk.css.map",
   "index.html": "/Projeto-Youtube/index.html",
-  "precache-manifest.4f3a8b4539e317f2a5e868a12359cebb.js": "/Projeto-Youtube/precache-manifest.4f3a8b4539e317f2a5e868a12359cebb.js",
+  "precache-manifest.2b132073b4f5719b27fed94501ecdbe6.js": "/Projeto-Youtube/precache-manifest.2b132073b4f5719b27fed94501ecdbe6.js",
   "service-worker.js": "/Projeto-Youtube/service-worker.js"
 }
