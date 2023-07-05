@@ -14,7 +14,7 @@ import Shorts from './pages/shorts';
 function App() {
   return (
     <UserStorage>
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
           <div className="App">
             <Routes>
               <Route path='/' element={<Home />} />
